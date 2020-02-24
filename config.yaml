@@ -1,0 +1,12 @@
+---
+baseurl: "/"
+DefaultContentLanguage: "zh-cn"
+hasCJKLanguage: true
+languageCode: "zh-cn"
+title: "云原生实验室"
+metaDataFormat: "yaml"
+algolia:
+  index: "blog"
+  key: "62fd06bd949abb4211bfab0aa288f67b"
+  appID: "4BELQK2TOI"
+---

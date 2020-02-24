@@ -1,0 +1,23 @@
+[[posts]]
+url = "https://fuckcloudnative.io/posts/understanding-resource-limits-in-kubernetes-cpu-time/"
+title = "深入理解 Kubernetes 资源限制：CPU"
+cover = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-06-06-WechatIMG559.jpeg"
+date = "2018-11-10"
+
+[[posts]]
+url = "https://fuckcloudnative.io/posts/understanding-cgroups-part-1-basics/"
+title = "Linux Cgroup 入门教程：基本概念"
+cover = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/0_htOFoCBI9_8VXPLa.jpg"
+date = "2019-5-22"
+
+[[posts]]
+url = "https://fuckcloudnative.io/posts/understanding-cgroups-part-2-cpu/"
+title = "Linux Cgroup 入门教程：CPU"
+cover = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-06-06-D2oVA1hX0AIc3gM.png"
+date = "2019-5-31"
+
+[[posts]]
+url = "https://fuckcloudnative.io/posts/understanding-cgroups-part-3-memory/"
+title = "Linux Cgroup 入门教程：内存"
+cover = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-07-26-andrey-konstantinov-Jk8tUzZ0O6E-unsplash.jpg"
+date = "2019-7-25"

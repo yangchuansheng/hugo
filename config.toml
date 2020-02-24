@@ -1,0 +1,301 @@
+baseurl = "https://fuckcloudnative.io"
+languageCode = "en-us"
+DefaultContentLanguage = "zh"
+title = "云原生实验室"
+theme = ["hugo-notice", "beautifulhugo"]
+metaDataFormat = "yaml"
+# 统计中文字数
+hasCJKLanguage = true
+# 把 url 中的大写字符转为小写
+disablePathToLower = false
+# 把分类（categories）名称转为小写
+preserveTaxonomyNames = false
+# 取消默认的代码高亮，我们使用prism代码高亮
+pygmentsUseClasses = false
+# 分页
+Paginate = 4
+# 启用 Emoji; see emoji-cheat-sheet.com
+enableEmoji = true
+# 创建robots.txt
+enableRobotsTXT = true
+googleAnalytics = "UA-145022311-1"
+#pygmentCodeFences = false 
+#pygmentsCodefencesGuessSyntax = false
+#disqusShortname = 'fuckcloudnative'
+
+[Blackfriday]
+  # 是否在新标签页打开链接
+  hrefTargetBlank = true
+
+[Params]
+  homeTitle = "Hi,我是米开朗基杨" # Set a different text for the header on the home page
+  titleicon = '<i class="fab fa-redhat"></i>'
+  subtitle = "我可以给你提供云原生方面的知识以及帮助你提高资源整合能力"
+  keywords = "docker、kubernetes、istio、devops、prometheus、envoy、coredns、hugo、golang、云原生、微服务"
+  description = "云原生实验室是一个关注容器、kubernetes、istio、devops、prometheus、envoy、golang、云原生、微服务等技术的个人博客。"
+  mainSections = ["posts"]
+  logo = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-08-26-WechatIMG12268.jpeg" # Expecting square dimensions
+  favicon = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/favicon-32x32.png"
+  dateFormat = "2006 年 1 月 2 日"
+  commit = false
+  rss = true
+  comments = true 
+  readingTime = true
+  wordCount = true
+  useHLJS = false
+  selfHosted = true 
+  socialShare = true
+  #delayDisqus = true
+  showRelatedPosts = true
+  # busuanzi
+  busuanzi = true
+  busuanzi_site_offset = 100000 
+  reward = true
+  customCSSAssets = ["fontawesome/css/all.css", "css/fonts.css", "css/fonts-zh.css", "css/prism.css", "css/toc.css", "css/pace.css", "css/search.css"]
+  customJSAssets = ["js/prism.js", "js/prism-copy-to-clipboard.min.js", "js/prism-match-braces.min.js", "js/photoswipe.min.js", "js/photoswipe-ui-default.min.js", "js/jquery.lazyload.min.js", "js/instant.page.min.js", "js/buttons.js"]
+  algolia = "62fd06bd949abb4211bfab0aa288f67b" # API key
+#  hideAuthor = true
+  # gcse = "014738201351737010393:0qb0mkrjow4" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+src = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/2qx3wkj.jpeg"
+desc = "Long Live Containers"
+
+[[Params.bigimg]]
+src = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/kw1s3z8z.jpeg"
+desc = "Long Live Kubernetes"
+
+[[Params.bigimg]]
+src = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/envoy_proxy.png"
+desc = "Long Live Envoy Proxy"
+
+[[Params.bigimg]]
+src = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/istio-1280x595.jpg"
+desc = "Long Live Istio"
+
+[[Params.bigimg]]
+src = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/service-mesh.jpeg"
+desc = "Long Live Service Mesh"
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "米开朗基杨"
+  website = "https://fuckcloudnative.io"
+  weixin = "https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-06-13-%E9%BB%98%E8%AE%A4%E6%A0%87%E9%A2%98_%E6%A8%AA%E7%89%88%E4%BA%8C%E7%BB%B4%E7%A0%81_2019.05.17.1.1.png"
+  weibo = "3496206342"
+  email = "yangchuansheng33@gmail.com"
+  #facebook = "username"
+  github = "yangchuansheng"
+  gdrive = "0By_W-zIhlMXqSGJyU3pHaVVpV2M"
+  #gitlab = "username"
+  #bitbucket = "username"
+  twitter = "RyangYang1"
+  #reddit = "username"
+  linkedin = "yang-ryan-b6659b106"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #500px = "username"
+  #codepen = "username"
+  #mastodon = "url"
+  #kaggle = "username"
+  #weibo = "username"
+  #slack = "username"
+
+[[menu.main]]
+    identifier = "Categories"
+    pre = '<i class="fas fa-dharmachakra fa-spin" style="color:#986dbd"></i>'
+    name = "文章分类"
+    weight = 1
+
+[[menu.main]]
+    parent = "Categories"
+    name = "kubernetes"
+    url = "categories/kubernetes/"
+    weight = 1
+
+[[menu.main]]
+    parent = "Categories"
+    name = "监控"
+    url = "categories/monitoring/"
+    weight = 2
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Service Mesh"
+    url = "categories/service-mesh/"
+    weight = 3
+
+[[menu.main]]
+    parent = "Categories"
+    name = "DevOps"
+    url = "categories/devops/"
+    weight = 4
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Docker"
+    url = "categories/docker/"
+    weight = 5
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Linux"
+    url = "categories/linux/"
+    weight = 7
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Python"
+    url = "categories/python/"
+    weight = 9
+
+[[menu.main]]
+    parent = "Categories"
+    name = "网络"
+    url = "categories/network/"
+    weight = 11
+
+[[menu.main]]
+    parent = "Categories"
+    name = " 负载均衡"
+    url = "categories/loadbalance/"
+    weight = 13
+
+[[menu.main]]
+    parent = "Categories"
+    name = "科学上网"
+    url = "categories/gfw/"
+    weight = 15
+
+[[menu.main]]
+    parent = "Categories"
+    name = "数学"
+    url = "categories/math/"
+    weight = 17
+
+[[menu.main]]
+    parent = "Categories"
+    name = "黑科技"
+    url = "categories/share/"
+    weight = 19
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Hugo"
+    url = "categories/hugo/"
+    weight = 21
+
+[[menu.main]]
+    identifier = "Books"
+    pre = '<i class="fab fa-docker"></i>'
+    name = "电子书"
+    weight = 2
+
+[[menu.main]]
+    parent = "Books"
+    name = "Prometheus 中文文档"
+    url = "prometheus-handbook/"
+    weight = 1
+
+[[menu.main]]
+    parent = "Books"
+    name = "天才源自刻意练习"
+    url = "talent-is-overrated/"
+    weight = 2
+
+[[menu.main]]
+    parent = "Books"
+    name = "Docker handbook"
+    url = "https://www.gitbook.com/book/yeasy/docker_practice"
+    weight = 7
+
+[[menu.main]]
+    parent = "Books"
+    name = "Istio service mesh"
+    url = "https://istio.io/zh/docs"
+    weight = 6
+
+[[menu.main]]
+    parent = "Books"
+    name = "阮一峰书单"
+    url = "https://github.com/ruanyf/reading-list"
+    weight = 5
+
+[[menu.main]]
+    parent = "Books"
+    name = "机器学习笔记"
+    url = "https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes"
+    weight = 4
+
+[[menu.main]]
+    parent = "Books"
+    name = "Go 入门指南"
+    url = "the-way-to-go/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "Cheats"
+    pre = '<i class="fas fa-book"></i>'
+    name = "葵花宝典"
+    weight = 4
+
+[[menu.main]]
+    parent = "Cheats"
+    name = " 英语学习终极秘诀"
+    url = "learn-english/"
+    weight = 2
+
+[[menu.main]]
+    parent = "Cheats"
+    name = "A Day in the life of Jeff"
+    url = "a-day-in-the-life-of-jeff/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "Welfare"
+    name = "😱福利"
+    weight = 5
+
+[[menu.main]]
+    parent = "Welfare"
+    name = "云原生导航"
+    url = "https://nav.fuckcloudnative.io"
+    weight = 1
+
+[[menu.main]]
+    parent = "Welfare"
+    name = "谷歌搜索"
+    url = "https://google.fuckcloudnative.io"
+    weight = 2
+
+[[menu.main]]
+    parent = "Welfare"
+    name = "种子搜索"
+    url = "https://bt.fuckcloudnative.io"
+    weight = 3
+
+[[menu.main]]
+    identifier = "Rss"
+    name = "Rss 订阅"
+    url = "index.xml"
+    weight = 6
