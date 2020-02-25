@@ -10,6 +10,11 @@
         "objectID": "page/about"
     },
     {
+        "title": "友情链接",
+        "uri": "page/friend",
+        "objectID": "page/friend"
+    },
+    {
         "title": "First post!",
         "uri": "post/2015-01-04-first-post",
         "objectID": "post/2015-01-04-first-post"

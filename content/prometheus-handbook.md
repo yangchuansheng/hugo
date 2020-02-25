@@ -3,7 +3,7 @@ title: "Prometheus 中文文档"
 subtitle: "使用 Prometheus 监控云原生应用"
 date: 2018-09-07T18:10:36+08:00
 draft: false
-bigimg: [{src: "https://ws2.sinaimg.cn/large/006tNbRwgy1fwtkgo7kp3j31kw0d0750.jpg"}]
+bigimg: [{src: "https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-04-27-080627.jpg"}]
 postmeta: false
 nocomment: true
 noshare: true

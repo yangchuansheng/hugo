@@ -44,11 +44,13 @@
           {{ if .Site.Params.since }}
             {{ .Site.Params.since }} - {{ .Site.LastChange.Format "2006" }}
           {{ else }}
-            {{ .Site.LastChange.Format "2006 年 1 月 2 日" }}
+            {{ .Site.LastChange.Format "2006.1.2" }}
           {{ end }}
 
 	  &nbsp;&bull;&nbsp;
           <a href="{{ "/tags/" | absLangURL }}">所有文章</a>
+	  &nbsp;&bull;&nbsp;
+	  <a href="{{ "/page/friend/" | absLangURL }}">友链</a>
 
 	  <!--
           {{ if .Site.Title }}

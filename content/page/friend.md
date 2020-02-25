@@ -1,0 +1,125 @@
+---
+description: "友情链接"
+title: "友情链接"
+draft: false
+bigimg: [{src: "https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-04-27-080627.jpg"}]
+postmeta: false
+nocomment: true
+---
+
+<div class="sidebar-block">
+  <h4 class="sidebar-title">友情链接</h4>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-08-27-044824.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://sealyun.com" title="sealyun" class="friendurl">sealyun<br><span class="link-description">sealos 官网</span></a>
+    </div>
+  </div>
+    <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/2019-10-18-091216.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://kuboard.cn/" title="sealyun" class="friendurl">Kuboard<br><span class="link-description">赶超官方的 Kubernetes Dashboard</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/avatar-icon.png">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://jimmysong.io/" title="Jimmy Song" class="friendurl">Jimmy Song<br><span class="link-description">云原生布道师</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-06-21-050658.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://my.oschina.net/jxcdwangtao" title="西电王涛" class="friendurl">西电王涛<br><span class="link-description">专注于 Kubernetes 资深解读</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-06-03-060644.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://www.qikqiak.com/" title="阳明的博客" class="friendurl">阳明的博客<br><span class="link-description">关注容器、kubernetes、istio 等</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="view-source:https://images.k8stech.net/k8stech.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://www.k8stech.net/" title="Kubernetes 技术栈" class="friendurl">Kubernetes 技术栈<br><span class="link-description"></span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="view-source:https://blz.nosdn.127.net/sre/images/favicon.ico">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://ops-coffee.cn/" title="运维咖啡吧" class="friendurl">运维咖啡吧<br><span class="link-description">阿里云大神，涉猎广泛，包括运维开发,自动化,云计算</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://www.lijiaocn.com/favicon.ico">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://www.lijiaocn.com/" title="李佶澳" class="friendurl">李佶澳<br><span class="link-description">关注 Calico、Envoy、Kong
+的某大神</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://blog.fleeto.us/img/icon.png">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://blog.fleeto.us/" title="伪架构师" class="friendurl">伪架构师<br><span class="link-description">Kubernetes 权威指南作者</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/images/moran.ico">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://mritd.me/" title="漠然" class="friendurl">漠然<br><span class="link-description">专注于 Kubernetes 与 Golang</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-08-30-064911.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="http://www.yinwang.org/" title="王垠的博客" class="friendurl">王垠的博客<br><span class="link-description">中国最早的 Linux 布道师</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-08-30-065121.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="http://bk.poph163.com/" title="董的博客" class="friendurl">董的博客<br><span class="link-description">擅长写各种系列教程</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://skyao.io/author/admin/avatar_hu9a83e0c939e89f8fc21c055e7cf31202_45777_250x250_fill_q75_box_center.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://skyao.io/" title="敖小剑的博客" class="friendurl">敖小剑的博客<br><span class="link-description">微服务专家，Service Mesh 布道师</span></a>
+    </div>
+  </div>
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src="https://nanxiao.me/wp-content/uploads/2016/08/cropped-freebsd-logo-192x192.jpg">
+    </div>
+    <div class="frienddivright">
+      <a target="_blank" href="https://nanxiao.me/" title="肖楠的博客" class="friendurl">肖楠的博客<br><span class="link-description">一个系统软件工程师的随手涂鸦，linux 内核代码贡献者</span></a>
+    </div>
+  </div>
+</div>
